@@ -1,0 +1,45 @@
+{
+  "configVersion": "v2",
+  "app": {
+    "appId": 1000042,
+    "appName": "FrogiTchi",
+    "appType": "app",
+    "version": {
+      "code": 1,
+      "name": "1.0.0"
+    },
+    "icon": "icon.png",
+    "vender": "frogidev",
+    "description": "Un Tamagotchi grenouille alimenté par vos pas"
+  },
+  "permissions": ["data:user.hd.step"],
+  "defaultLanguage": "fr-FR",
+  "i18n": {
+    "fr-FR": { "appName": "FrogiTchi" },
+    "en-US": { "appName": "FrogiTchi" }
+  },
+  "runtime": {
+    "apiVersion": {
+      "compatible": "1.0.0",
+      "target": "1.0.1",
+      "minVersion": "1.0.0"
+    }
+  },
+  "targets": {
+    "gtr-3": {
+      "module": {
+        "page": {
+          "pages": [
+            "page/gtr-3/index",
+            "page/gtr-3/menu"
+          ]
+        }
+      },
+      "platforms": [
+        { "name": "gtr3",  "deviceSource": 226 },
+        { "name": "gtr3w", "deviceSource": 227 }
+      ],
+      "designWidth": 480
+    }
+  }
+}
