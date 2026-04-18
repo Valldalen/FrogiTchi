@@ -4,7 +4,6 @@
 
 ![Zepp OS](https://img.shields.io/badge/Zepp%20OS-1.0-brightgreen)
 ![Amazfit GTR 3](https://img.shields.io/badge/Amazfit-GTR%203-blue)
-![License](https://img.shields.io/badge/license-MIT-green)
 
 ---
 
@@ -14,12 +13,12 @@ FrogiTchi est un mini-programme Zepp OS pour l'Amazfit GTR 3. Une grenouille vit
 
 ### États de la grenouille
 
-| Vie | État | Couleur |
-|-----|------|---------|
-| 80 – 100 % | 😊 Heureuse | Vert |
-| 40 – 79 % | 😐 Neutre | Jaune |
-| 10 – 39 % | 😟 Triste | Orange |
-| 0 – 9 % | 💀 Mourante | Rouge |
+| Vie | État | 
+|------------|-------------|
+| 80 – 100 % | 😊 Heureuse | 
+| 40 – 79 % | 😐 Neutre | 
+| 10 – 39 % | 😟 Triste | 
+| 0 – 9 % | 💀 Mourante | 
 
 > **Bonus matin** : avant midi, la grenouille ne peut pas afficher l'état "mourante" — elle reste au minimum dans l'état triste pour vous laisser le temps de vous réveiller.
 
@@ -47,7 +46,7 @@ FrogiTchi est un mini-programme Zepp OS pour l'Amazfit GTR 3. Une grenouille vit
 │     ║  🐸  ║       │     │                     │
 │     ╚═══════╝       │     │  Objectif journalier│
 │       VIE           │     │  [−]  8000  [+]     │
-│  ████████░░  82%    │     │  Sur 3 jours : 24000│
+│  ████████░░  82%    │     ││
 │                     │     │  ─────────────────  │
 │  Auj: 6542 pas      │     │  Pas fictifs        │
 │  Obj: 8000 pas      │     │  [−]   500  [+]     │
@@ -167,6 +166,4 @@ Les contributions sont bienvenues ! En particulier :
 
 ---
 
-## Licence
-
-MIT — faites-en ce que vous voulez, gardez juste votre grenouille en vie. 🐸
+Gardez votre grenouille en vie. 🐸
